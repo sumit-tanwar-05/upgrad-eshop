@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# UpGrad Eshop - Frontend Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains the frontend implementation of the **UpGrad Eshop** application. The project is developed using **React.js** as per the guidelines provided by UpGrad. It includes features like user authentication, product listing, product details, order placement, and admin product management.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## **Features**
 
-### `npm start`
+### **User Features**
+- **Authentication**:
+  - Login and Signup with form validation and API integration.
+  - User-friendly forms with appropriate validation messages.
+- **Products**:
+  - Product search functionality with real-time filtering.
+  - Sort products by price (High to Low, Low to High), and newest first.
+  - Filter products by categories.
+- **Order Placement**:
+  - Stepper-based Create Order page with address management.
+  - "Order Placed Successfully" confirmation.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### **Admin Features**
+- Manage products (Add, Edit, Delete).
+- Separate admin functionalities, including product management.
+- APIs integrated to perform CRUD operations on products.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## **Screens**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Home Page**:
+   - Header with a search bar, login/signup links, and product categories.
+   - Display all products with sorting and filtering options.
+2. **Login/Signup Pages**:
+   - Dedicated forms for user authentication.
+3. **Product Details Page**:
+   - Detailed view of a selected product with a "Place Order" button.
+4. **Create Order Page**:
+   - Multi-step process for placing orders.
+5. **Admin Manage Products Page**:
+   - Add, edit, and delete products with proper API integration.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## **Technologies Used**
+- **React.js**: For building the user interface.
+- **Material-UI**: For styling components and providing a professional design.
+- **React Router**: For navigation between pages.
+- **Fetch API**: For interacting with the backend services.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## **Setup Instructions**
 
-### `npm run eject`
+### **Prerequisites**
+- Node.js and npm installed on your machine.
+- An active internet connection to access the APIs.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### **Steps to Run the Project**
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/upgrad-eshop.git
+   cd upgrad-eshop
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Install dependencies:
+npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Start the development server:
+npm start
