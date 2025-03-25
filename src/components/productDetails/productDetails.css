@@ -1,0 +1,23 @@
+.product-details {
+  border: 1px solid #ddd;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.product-image {
+  margin: 16px 0;
+  text-align: center;
+}
+
+.product-image img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.quantity-section {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,12 @@
+.admin-manage-products {
+  background-color: #f9f9f9;
+  padding: 16px;
+}
+
+.product-card {
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 16px;
+}
