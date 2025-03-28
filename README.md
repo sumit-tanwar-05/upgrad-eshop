@@ -58,7 +58,7 @@ This repository contains the frontend implementation of the **UpGrad Eshop** app
 ### **Steps to Run the Project**
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/upgrad-eshop.git
+   git clone https://github.com/sumit-tanwar-05/upgrad-eshop.git
    cd upgrad-eshop
 
 
